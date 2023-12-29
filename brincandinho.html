@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brincandinho</title>
+    <link rel="stylesheet" href="brincandinho.css">
+</head>
+<body>
+    <div class="invert">
+        <nav class="status">
+            <ul class="status-bar">
+                <li class="liImg"><a class="toggle" onclick="toggle()"><img id="img-tog" src="./imagens/2205232_botton_off_on_right_icon.png" alt="Inverter cores"></a></li>
+                <li><a href="#home">Casa</a></li>
+                <li><a href="#infos">Infos</a></li>
+                <li><a href="#calc">Calcule</a></li>
+            </ul>
+        </nav>
+    
+        <header class="landing" id="home">
+            <div class="title">
+                <h1>Título</h1>
+            </div>
+            <div class="sub-title">
+                <h1 class="blinkBorder">Sub-título</h1>
+            </div>
+        </header>
+    
+        <div id="infos">
+            <div>
+                Velit commodo quis consequat magna. Voluptate eiusmod officia ea enim reprehenderit nulla elit labore voluptate in enim deserunt quis. Enim exercitation est consequat ea reprehenderit nostrud ad in do eiusmod nostrud ipsum. Culpa esse fugiat exercitation occaecat nisi sint fugiat veniam ea proident ad commodo duis. Labore excepteur excepteur occaecat in nisi commodo eu pariatur. Incididunt amet ullamco dolor consectetur esse voluptate laboris laboris nisi sit enim.
+                Excepteur amet occaecat qui nostrud sunt incididunt non enim quis tempor esse ex. Veniam cupidatat pariatur eu labore laboris id ex officia voluptate minim. Consectetur dolor officia anim exercitation exercitation ullamco adipisicing consectetur occaecat et reprehenderit voluptate culpa.
+                Nulla qui consequat Lorem velit exercitation veniam sint in qui. Ipsum labore laborum esse aliqua. Incididunt amet nisi ea reprehenderit irure cillum ea voluptate tempor nulla Lorem minim. Deserunt amet commodo minim nostrud pariatur ipsum. Dolor do sint elit incididunt eiusmod ea aute elit incididunt deserunt. In magna exercitation Lorem nostrud veniam irure enim officia mollit sint. Incididunt ipsum ipsum nulla est magna quis sit aliqua.
+                Sit laborum cillum incididunt cupidatat qui dolore dolore aliquip laboris Lorem. Aliquip cillum occaecat qui sunt Lorem culpa pariatur dolore adipisicing est ad nostrud. Labore culpa sunt eu ea ullamco ea sint fugiat dolor adipisicing Lorem non amet. Ad aute amet magna et nisi aute consequat.
+                Duis sunt adipisicing quis officia non minim. Sint occaecat officia in nisi. Sint nulla dolore velit veniam.
+                Tempor ex voluptate voluptate ut ullamco in ullamco nostrud fugiat incididunt eiusmod elit anim anim. Aliquip cupidatat veniam anim labore veniam do proident reprehenderit fugiat aute. Cupidatat laboris laborum elit esse irure ea ut eu. Eu non proident id occaecat in aliqua non adipisicing.
+                Nulla aute ex sunt nulla pariatur laboris in sunt. Fugiat non ea voluptate officia mollit excepteur eu et deserunt velit sint enim. Esse eiusmod tempor id consequat duis do commodo commodo consequat aute. Ex Lorem irure ut reprehenderit laborum occaecat enim. 
+            </div>
+        </div>
+    
+        <div id="calc">
+            <input id="show" placeholder="Números" disabled></input>
+            <div class="calc">
+                <div class="apaga"></div>
+                <div class="apaga"></div>
+                <div class="transition" onclick="apaga()">CE</div>
+                <div class="transition" onclick="apaga()">C</div>
+                <div class="transition" onclick="sete()">7</div>
+                <div class="transition" onclick="oito()">8</div>
+                <div class="transition" onclick="nove()">9</div>
+                <div class="transition" onclick="divide()">÷</div>
+                <div class="transition" onclick="quatro()">4</div>
+                <div class="transition" onclick="cinco()">5</div>
+                <div class="transition" onclick="seis()">6</div>
+                <div class="transition" onclick="mult()">x</div>
+                <div class="transition" onclick="um()">1</div>
+                <div class="transition" onclick="dois()">2</div>
+                <div class="transition" onclick="tres()">3</div>
+                <div class="transition" onclick="menos()">-</div>
+                <div class="transition" onclick="zero()">0</div>
+                <div class="transition" onclick="virg()">.</div>
+                <div class="transition" onclick="igual()">=</div>
+                <div class="transition" onclick="soma()">+</div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="brincandinho.js"></script>
+</body>
+</html>
